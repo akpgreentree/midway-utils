@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# add `/path/to/git_ipynb_convert.sh $OUT_FOLDER`
+# to .git/hooks/pre-commit
+
 OUT_FOLDER=$1
 source /srv/adm/modules/init/sh # load the module system when using zsh
 
