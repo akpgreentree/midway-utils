@@ -59,7 +59,7 @@ fi
  TASKS=1         # Set number of cores to use (e.g. 2 cores)
  ACCOUNT=""      # PI account to use. If left unset it will use your default account
  QOS=""          # QOS to use. If left unset it will use the default QOS
- PYTHON_MODULE="Anaconda3/2019.03"  # Python module to use -- Anaconda3 dist of python
+ PYTHON_MODULE="python/anaconda-2020.02"  # Python module to use -- Anaconda3 dist of python
  CONDA_ENV="$SCRATCH/conda/jlab"    # conda environment name to source. If left unset it will use the base conda
  CONSTRAINT=""   # Set slurm resource constraints. If left unset no constraints applied.
  GRES=""         # Set if using a GPU partition and require use of one or more gpus  (e.g. gpu:1 for one gpu) 
